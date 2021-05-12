@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap');
+body {
+    background: #1E1F21 !important;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 17px;
+}
+.navbar-toggler:active, .navbar-toggler:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
+ a:hover{
+     color: #db0042;
+ }
+.navbar{
+    padding: 2% 5%;
+}
+.navbar-brand{
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+    color: #db0042
+}
+.navbar-brand:hover{
+    color: black !important;
+}
+.nav-link{
+    color: #b2b2b2;
+}
+.container{
+    max-width: 860px;
+    margin: 20px auto;
+    padding: 2% 5%;
+}
+
+.archiveTitle{
+    font-size: 28px;
+}
+.archiveTitle:hover{
+    color: #db0042 !important;
+    text-decoration: none;
+}
+
+.more{
+    color: #b2b2b2;
+    font-size:14px;
+}
+.more:hover{
+    color: white;
+    text-decoration: none;
+}
